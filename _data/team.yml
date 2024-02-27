@@ -1,0 +1,21 @@
+- name: Member 1
+  image: "/member1.png"
+  title: Officer
+  email: member1@mail.com
+  website: member1.com
+  education1: Master of Science
+  education2: Bachelor of Science
+
+- name: Member 2
+  image: "/member2.png"
+  title: Research Associate
+  email: member2@mail.com
+  website: 
+  education1: PhD 
+
+- name: Member 3
+  image: "/member3.png"
+  title: Visiting Student
+  email: member3@mail.com
+  website: member3.com
+  education2: Bachelor of Science

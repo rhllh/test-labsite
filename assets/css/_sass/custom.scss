@@ -1,0 +1,72 @@
+/* Add your custom styles here */
+
+/* Font */
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Image */
+
+.image-left {
+  position: relative;
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+/* Header Link */
+.home-link {
+  color: $navbar-dark-active-color;
+}
+
+.home-link:hover {
+  text-decoration: none;
+  // @include hover-focus {
+  //   color: $navbar-active-color;
+  // }
+}
+
+/* Carousel */
+
+.carousel .carousel-item {
+  height: 450px;
+}
+  
+.carousel-item img {
+  position: absolute;
+  background-size: cover;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 450px;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+} 
+  
